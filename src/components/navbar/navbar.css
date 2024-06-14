@@ -1,0 +1,26 @@
+.navbar{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar, div{
+    width: 95%;
+    margin: auto;
+}
+
+.right-navbar ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.right-navbar, .left-navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
