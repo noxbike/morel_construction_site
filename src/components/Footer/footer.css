@@ -1,0 +1,30 @@
+.Footer{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.menuFooter{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.SocialMenu{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.SocialMenu li{
+    margin: 10px;
+}
+
+.menuFooter li{
+    margin: 10px;
+}
