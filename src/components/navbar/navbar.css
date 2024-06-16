@@ -1,26 +1,90 @@
+
 .navbar{
+    max-width: 95%;
+    margin: auto;
     color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: start;
 }
 
-.navbar, div{
-    width: 95%;
-    margin: auto;
-}
 
 .right-navbar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     list-style: none;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    height: 300px;
+    width: 200px;
+}
+    
+.right-navbar a{
+    text-decoration:none;
+    color: black;
+    cursor: pointer;
 }
 
+.right-navbar a:hover{
+    color: red;
+}
+    
 .right-navbar, .left-navbar{
     display: flex;
-    flex-direction: row;
-    width: 100%;
     justify-content: space-between;
+}
+
+.closeButton, .openButton{
+    cursor: pointer;
+}
+
+.closeButton{
+    padding-left: 10px;
+}
+
+.menu{
+    display:none;
+}
+
+.hide{
+    display: none;
+}
+
+.Mobilemenu .Menu{
+    font-weight: 500;
+    font-size: large;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 1px 5px 10px gray;
+    position: absolute;
+    right: 0;
+    width: 75%;
+    min-height: 400px;
+}
+
+@media screen and (min-width: 810px) {
+    .navbar{
+        max-width: 85%;
+        align-items: center;
+    }
+    .right-navbar{
+        width: 50%;
+        min-width: 600px;
+    }
+    .right-navbar ul{
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .menu{
+        display: contents;
+    }
+
+    .Mobilemenu{
+        display:none
+    }
 }

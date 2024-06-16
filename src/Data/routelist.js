@@ -9,26 +9,32 @@ import Notfound from "../components/notfound/Notfound"
 
 export let routelist = [
     {
+        name:"Accueil",
         path: "/",
         element: <Accueil/>
     },
     {
+        name:"A propos",
         path: "/a-propos",
         element: <APropos/>
     },
     {
+        name:"Nos services",
         path: "/services",
         element:<NosService/>
     },
     {
+        name:"Réalisation",
         path: "/realisation",
         element:<Realisation/>
     },
     {
+        name: "Contact",
         path: "/contact",
         element:<Contact/>
     },
     {
+        name:"Devis",
         path: "/devis",
         element:<Devis/>
     },
