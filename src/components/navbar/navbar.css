@@ -39,8 +39,8 @@
     cursor: pointer;
 }
 
-.closeButton{
-    padding-left: 10px;
+.closeButton, .openButton{
+    padding: 10px 10px;
 }
 
 .menu{
